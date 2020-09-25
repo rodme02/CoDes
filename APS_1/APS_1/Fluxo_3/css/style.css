@@ -45,7 +45,9 @@ header h1{
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    color: black;
+    font-weight: bolder; 
 }
 
 .intro img {
@@ -72,7 +74,13 @@ header h1{
     margin:2rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+ 
+}
+
+.proposta a {
+    color: black;
+    font-weight: bolder;
 }
 
 /* tela de cliente*/
@@ -142,6 +150,8 @@ header h1{
     text-decoration: none;
     border-radius: .5rem;
     align-self: center; 
+    color: black;
+    font-weight: bolder;
      
 }
 
@@ -178,6 +188,8 @@ header h1{
     text-decoration: none;
     border-radius: .5rem;
     align-self: flex-end;
+    font-weight: bolder;
+    color: black;
 }
 
 /*finalizar*/
@@ -209,4 +221,6 @@ header h1{
     text-decoration: none;
     border-radius: .5rem;
     align-self: flex-end;
+    font-weight: bolder;
+    color: black;
 }
