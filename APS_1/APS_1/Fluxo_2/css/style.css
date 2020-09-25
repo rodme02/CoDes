@@ -1,0 +1,290 @@
+html, body{
+    height:100%;
+}
+
+header{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .1rem solid black;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header img{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+header h1{
+    position: relative;
+    font-size:1.5rem;
+}
+
+.intro{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro a{
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+
+.intro img {
+    position: relative;
+}
+
+/* para a tela lavagem */
+.escolha {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.escolha h2 {
+    flex-grow: 1;
+    align-self: center;
+    font-size:1.5rem;
+    margin-top: 10%;
+}
+.lavagem {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.lavagem li{
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+
+/*quando lavar*/
+
+.quando_lavar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quando_lavar h2 {
+    align-self: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.quando{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.quando li{
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+/*marcar*/
+
+
+.marcar{
+    flex-grow: 1;
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcar h2 {
+    align-self: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.marcar input{
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+.marcar a{
+
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+
+
+/* endereco*/
+.endereco{
+    flex-grow: 1;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.endereco h2, .endereco h3{
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.confirma{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.confirma li {
+    position: relative;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+/* achou limpador*/
+
+.achou{
+    flex-grow: 1;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.achou h2{
+    align-self: center;
+    font-size: 1.5rem;
+}
+.achou a{ 
+
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+    font-size: 2rem;
+
+}
+
+/* espera*/
+
+.espera{
+    flex-grow: 1;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.espera p {
+    align-self: center;
+    font-size: 1.5rem;
+}
+.espera a{
+    position: relative;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.espera h2{
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+
+}
+
+/*perfil*/
+
+
+.perfil{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.perfil h2 {
+    align-self: center;
+    font-size: 1.5rem;
+}
+.perfil ul{
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+
+.perfil li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.perfil img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.perfil div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.perfil a{
+      
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+     
+}

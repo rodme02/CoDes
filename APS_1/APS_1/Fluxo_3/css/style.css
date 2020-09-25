@@ -1,0 +1,212 @@
+html, body{
+    height:100%;
+}
+
+header{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .1rem solid black;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header img{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+header h1{
+    position: relative;
+    font-size:1.5rem;
+}
+
+.intro{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro a{
+    display: flex;
+    justify-content: center;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+
+.intro img {
+    position: relative;
+}
+/* para a tela proposta */
+
+.proposta{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.proposta h2 {
+    position: relative;
+    align-self: center;
+    font-size:1.5rem;
+}
+.proposta li{
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    margin:2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem; 
+}
+
+/* tela de cliente*/
+
+.clientes {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.clientes h2 {
+    position: relative;
+    align-self: center;
+    font-size:1.5rem;
+}
+.clientes ul{
+    display: flex;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: center;
+}
+
+.clientes li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.clientes img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.clientes div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.clientes h3 {
+    align-self: center;
+    font-size: 1.5rem;
+}
+.clientes h4, .clientes h5 {
+    align-self: center;
+    font-size: 1.5rem;
+}
+.clientes h5 {
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: center;
+}
+.clientes a{
+      
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: center; 
+     
+}
+
+/*parabens*/
+
+.parabens {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parabens ul {
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: center;
+}
+
+.parabens h2 {
+    font-size: 1.5rem;
+    align-self: start;
+}
+
+.parabens a {
+      
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: flex-end;
+}
+
+/*finalizar*/
+
+.finalizar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.finalizar h1 {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.finalizar h2 {
+    font-size: 1.5rem;
+    align-self: center;
+
+}
+
+.finalizar a {
+      
+    display: block;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-self: flex-end;
+}
