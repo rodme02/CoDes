@@ -1,3 +1,4 @@
+
 html, body{
     height:100%;
 }
@@ -28,6 +29,7 @@ header img{
 header h1{
     position: relative;
     font-size:1.5rem;
+    font-family: 'Roboto Slab', serif;
 }
 
 .intro{
@@ -45,7 +47,10 @@ header h1{
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .intro img {
@@ -67,23 +72,27 @@ header h1{
     align-self: center;
     font-size:1.5rem;
     margin-top: 10%;
+    font-family: 'Open Sans', sans-serif; 
 }
 .lavagem{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif; 
 
 }
 
-.lavagem li{
+.escolha a{
     display: flex;
     justify-content: center;
     border: .1rem solid black;
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    color: black;
+    font-weight: bolder; 
 }
 
 /* Qundo lavar*/
@@ -99,6 +108,7 @@ header h1{
     align-self: center;
     font-size: 1.5rem;
     margin-top: 10%;
+    font-family: 'Open Sans', sans-serif;
 }
 .quando{
     flex-grow: 1;
@@ -114,7 +124,14 @@ header h1{
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.quando a{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* endereco*/
@@ -129,6 +146,7 @@ header h1{
 .endereco h2, .endereco h3{
     align-self: center;
     font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .confirma{
@@ -144,6 +162,12 @@ header h1{
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     border-radius: .5rem;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.confirma a {
+    color: black;
+    font-weight: bolder;
 }
 /* achou limpador*/
 
@@ -158,6 +182,7 @@ header h1{
 .achou h2{
     align-self: center;
     font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .achou a{ 
 
@@ -168,7 +193,9 @@ header h1{
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: .5rem; 
-
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* espera*/
@@ -183,11 +210,15 @@ header h1{
 .espera p {
     align-self: center;
     font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .espera a{
     position: relative;
     align-self: center;
     font-size: 1.5em;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .espera h2{
@@ -197,7 +228,9 @@ header h1{
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    align-self: center;
+    font-family: 'Open Sans', sans-serif; 
 
 }
 
@@ -214,6 +247,7 @@ header h1{
 .perfil h2 {
     align-self: center;
     font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .perfil ul{
     display: flex;
@@ -230,6 +264,7 @@ header h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
 }
 .perfil img {
     height: 5rem;
@@ -250,7 +285,9 @@ header h1{
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: .5rem; 
-     
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
